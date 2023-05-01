@@ -8,6 +8,7 @@
     "init": "^0.1.2"
   },
   "devDependencies": {
+    "@babel/eslint-parser": "^7.21.3",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-html": "^7.1.0",
     "eslint-plugin-import": "^2.27.5"
