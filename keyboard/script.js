@@ -24,7 +24,7 @@ const Keyboard = {
         this.elements.main.classList.add("keyboard", "keyboard--hidden");
 
         let virtual = document.createElement('p');
-        virtual.classList.add('virtul')
+        virtual.classList.add('virtual-key')
         virtual.innerHTML = 'Виртуальная клавиатура создана на Windows <br> <a class="text-pull" href="" target="_blank">Ссылка на PullReq</a> ';
 
         document.body.append(virtual);
