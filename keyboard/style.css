@@ -94,3 +94,48 @@ button.keyboard__key.tab:active {
     background: #8ac5de;
     border: 50px
 }
+
+.keyboard__key.active {
+    border: 130px
+}
+
+.key-color {
+    background: #8d5b5b;
+}
+
+.key-color:hover {
+    background: #883535;
+}
+
+.keyboard__key--wide {
+    width: 12%;
+}
+
+.keyboard__key--extra-wide {
+    width: 25em;
+    max-width: 500px;
+}
+
+.keyboard__key--activatable::after {
+    content: '';
+    top: 10px;
+    right: 10px;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+}
+
+.keyboard__key--active::after {
+    background: #ff02d4;
+}
+
+.keyboard__key--dark {
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.caps:active {
+    background: rgb(0 0 0 / 70%);
+
+}
