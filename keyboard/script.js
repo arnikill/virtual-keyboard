@@ -25,7 +25,7 @@ const Keyboard = {
 
         let virtual = document.createElement('p');
         virtual.classList.add('virtual-key')
-        virtual.innerHTML = 'Виртуальная клавиатура создана на Windows <br> <a class="text-pull" href="" target="_blank">Ссылка на PullReq</a> ';
+        virtual.innerHTML = 'Виртуальная клавиатура создана на Windows <br> <a class="text-pull" href="https://github.com/arnikill/virtual-keyboard/compare/gh-pages...virtual-keyboard?expand=1" target="_blank">Ссылка на PullReq</a> ';
 
         document.body.append(virtual);
 
